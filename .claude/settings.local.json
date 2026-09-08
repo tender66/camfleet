@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack)",
+      "Read(//private/tmp/**)",
+      "Bash(npx create-next-app@latest camfleet --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack)",
+      "Bash(cp -r /tmp/camfleet/. /Users/alexandre/Desktop/CamFleet/ && ls /Users/alexandre/Desktop/CamFleet/)",
+      "Bash(npx shadcn@latest init --defaults)",
+      "Bash(npx shadcn@latest add sidebar navigation-menu badge avatar dropdown-menu dialog form input label select textarea table card sheet separator tooltip)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
